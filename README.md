@@ -33,7 +33,7 @@ Run the Mongo daemon, in one of your terminal windows run
 
 >mongod
 
->mongod --rest #web interface  on http://localhost:28017
+>mongod --rest #run deamon with web interface on http://localhost:28017
 
 This should start the Mongo server.
 
