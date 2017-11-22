@@ -20,25 +20,28 @@ puts collection.find( { name: 'Sally' } ).first
 ```
 Let's sea what is that meaning.
 
-```require 'mongo' ``` 
-
 Load MongoDB driver for Ruby
 
-``` client = Mongo::Client.new('mongodb://127.0.0.1:27017/test') ``` 
+```require 'mongo' ``` 
 
 Create and connect to database "test" 
 
+``` client = Mongo::Client.new('mongodb://127.0.0.1:27017/test') ``` 
+
+Add and use collection "people"
+
 ``` collection = client[:people]```
 
-Add  and use collection "people"
+Add data to collection "people"
 
 ```ruby
 docs = [ { _id: 1, name: 'Steve', hobbies: [ 'hiking', 'tennis', 'fly fishing' ] },
 { _id: 2, name: 'Sally', hobbies: ['skiing', 'stamp collecting' ] } ] 
 ```
-Add data to collection "people"
+
+Get data from collection with query.
 
 `puts collection.find( { name: 'Sally' } ).first`
 
 
-Get data from collection wit query.
+
