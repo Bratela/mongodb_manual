@@ -18,6 +18,12 @@ docs = [ { _id: 1, name: 'Steve', hobbies: [ 'hiking', 'tennis', 'fly fishing' ]
 puts collection.find( { name: 'Sally' } ).first
 
 ```
+
+Run this file in terminal `$ ruby connect.rb`.
+
+Before run this file start MongoDB server with `$ mongoid`
+
+
 Let's see what is that meaning.
 
 Load MongoDB driver for Ruby
