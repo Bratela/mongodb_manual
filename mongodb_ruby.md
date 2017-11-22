@@ -17,6 +17,8 @@ docs = [ { _id: 1, name: 'Steve', hobbies: [ 'hiking', 'tennis', 'fly fishing' ]
 
 puts collection.find( { name: 'Sally' } ).first
 
+result = collection.update_one( { 'name' => 'Sally' }, { '$set' => { 'phone_number' => "555-555-5555" } } )
+
 ```
 
 Run this file in terminal `$ ruby connect.rb`.
