@@ -18,7 +18,7 @@ docs = [ { _id: 1, name: 'Steve', hobbies: [ 'hiking', 'tennis', 'fly fishing' ]
 puts collection.find( { name: 'Sally' } ).first
 
 ```
-Let's sea what is that meaning.
+Let's see what is that meaning.
 
 Load MongoDB driver for Ruby
 
