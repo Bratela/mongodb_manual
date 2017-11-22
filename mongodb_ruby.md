@@ -23,7 +23,6 @@ Run this file in terminal `$ ruby connect.rb`.
 
 Before run this file start MongoDB server with `$ mongoid`
 
-
 Let's see what is that meaning.
 
 Load MongoDB driver for Ruby
