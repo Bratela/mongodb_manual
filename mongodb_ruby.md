@@ -1,4 +1,4 @@
-### MongoDB with Ruby
+# MongoDB with Ruby
 
 ## How to connect Ruby and MongoDB.
 
