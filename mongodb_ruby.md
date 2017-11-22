@@ -43,5 +43,9 @@ Get data from collection with query.
 
 `puts collection.find( { name: 'Sally' } ).first`
 
+Update data.
+
+`result = collection.update_one( { 'name' => 'Sally' }, { '$set' => { 'phone_number' => "555-555-5555" } } )`
+
 
 
