@@ -1,5 +1,5 @@
 # MongoDB manual for macOS X. 
-### MongoDB manual installation an running .
+### MongoDB manual installation and running .
 
 Installation Overview
 There are two primary ways to install MongoDB on a Mac. 
